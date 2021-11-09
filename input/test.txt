@@ -1,0 +1,25 @@
+3
+2
+200
+20
+50
+car 1
+w 'hello' 20 5
+r 20 10 5
+w 'xianzaishi' 30 10
+w '2021nian' 20 7
+end
+car 2
+r 30 50 7
+r 10 20 5
+w '6yue25ri' 20 13
+w 'xiamendaxue' 40 8
+end
+car 3
+w 'linux' 50 9
+r 20 15 13
+r 10 10 8
+end
+
+
+

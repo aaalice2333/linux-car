@@ -1,0 +1,32 @@
+配置说明：
+src中放的是源代码
+input中放的是测试的输入文件，也可另外撰写。但是需要注意，需要给车辆预留出足够的时间读写，穿越隧道的时间也需要适当大一些，否则车辆可能会没有足够的时间通过隧道而报错。
+
+./input/input.txt为输入文件，格式为
+
+total_number_of_cars
+maximum_number_of_cars_in_tunnel
+tunnel_travel_time
+total_number_of_mailboxes
+memory_segment_size  /* size of each mailbox */
+car_no_1
+operation duration mailbox-no
+operation duration mailbox-no
+: :
+end.
+car_no_2
+operation duration mailbox-no
+operation duration mailbox-no
+: :
+end.
+: :
+car_no_LAST
+operation duration mailbox-no
+operation duration mailbox-no
+: :
+end.
+
+operation duration mailbox-no的格式为：
+
+w 'hello' 20 5 /* write 'hello' into mailbox 5 with a duration of 20 milliseconds */
+r 20 10 5 /* read 20 characters from mailbox 5 for 10 milliseconds */

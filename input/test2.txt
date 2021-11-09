@@ -1,0 +1,16 @@
+3
+3
+20
+5
+200
+car 1
+r 1 17 1
+end
+car 2
+r 1 20 1
+r 1 7 1
+end
+car 3
+r 1 13 1
+w "nice" 1 1
+end
